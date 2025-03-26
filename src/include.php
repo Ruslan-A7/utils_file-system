@@ -7,7 +7,7 @@
  * 
  * Функція може приймати масив змінних для доступу до них з підключеного файлу!
  */
-function includeFile(string $path, bool $once = false, array &$variables = []): mixed {
+function includeFile(string $path, bool $once = false, array $variables = []): mixed {
     if (!empty($variables)) {
         extract($variables);
     }
@@ -26,7 +26,7 @@ function includeFile(string $path, bool $once = false, array &$variables = []): 
  * 
  * Функція може приймати масив змінних для доступу до них з підключеного файлу!
  */
-function requireFile(string $path, bool $once = false, array &$variables = []): mixed {
+function requireFile(string $path, bool $once = false, array $variables = []): mixed {
     if (!empty($variables)) {
         extract($variables);
     }
