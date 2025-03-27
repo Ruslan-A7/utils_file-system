@@ -32,10 +32,7 @@
             "src/copying.php",
             "src/search.php",
             "src/include.php"
-        ],
-        "psr-4": {
-            "RA7\\Framework\\Utils\\FileSystem\\": "src/"
-        }
+        ]
     },
     "require": {
         "php": "^8"
