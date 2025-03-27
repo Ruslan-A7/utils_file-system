@@ -34,7 +34,7 @@
             "src/include.php"
         ],
         "psr-4": {
-            "RA7\\FileSystem\\": "src/"
+            "RA7\\Framework\\Utils\\FileSystem\\": "src/"
         }
     },
     "require": {
